@@ -1,0 +1,89 @@
+:root {
+  --dark: #050505;
+  --white: #ffffff;
+  --bg-color: #FBF9F7;
+  --grey: #909090;
+  --grey-light: #CECDC9;
+  --error: #ff0000;
+}
+
+@font-face {
+  font-family: "ProductSans";
+  src: url('./components/styles/fonts/ProductSansInfanity.woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "ProductSans";
+  font-size: 14px;
+  line-height: 1;
+  color: var(--dark);
+  background-color: var(--white);
+}
+
+main {
+  flex-grow: 1;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  outline: none;
+  color: inherit;
+  cursor: pointer;
+}
+/* 
+.preventScroll {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sectionTitle {
+  font-size: 34px;
+  line-height: 1.2;
+  text-transform: uppercase;
+
+  @media screen and (min-width: 1440px) {
+    font-size: 114px;
+  }
+}
+
+.loader {
+  min-height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */

@@ -1,0 +1,28 @@
+.section {
+  padding: 32px 16px;
+
+  @media screen and (min-width: 768px) {
+    background-color: var(--bg-color);
+  }
+}
+
+.wrapper {
+  @media screen and (min-width: 1440px) {
+    width: 1144px;
+    margin: 0 auto;
+  }
+}
+
+.content {
+  line-height: 1.25;
+}
+
+.title {
+  margin: 0 0 32px 0;
+  text-transform: uppercase;
+  font-size: 34px;
+
+  @media screen and (min-width: 1440px) {
+    font-size: 114px;
+  }
+}

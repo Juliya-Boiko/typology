@@ -1,0 +1,13 @@
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 80px;
+  height: 50px;
+  @media screen and (min-width: 768px) {
+    width: 140px;
+  }
+}

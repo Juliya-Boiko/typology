@@ -1,0 +1,57 @@
+.section {
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 16px 32px;
+  background-color: var(--dark);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("../../../../public/diagnostic/bgi.png");
+  @media screen and (min-width: 768px) {
+    height: 768px;
+    justify-content: center;
+  }
+}
+
+.title {
+  margin: 0 0 15px 0;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.subTitle {
+  max-width: 550px;
+  margin: 0 0 135px 0;
+  text-align: center;
+  font-size: 34px;
+  color: var(--white);
+  @media screen and (min-width: 768px) {
+    margin: 0 auto 65px auto;
+    font-size: 55px;
+  }
+}
+
+.link {
+  display: inline-block;
+  padding: 25px 24px;
+  line-height: 1;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+  border: 1px solid #CECDC9;
+  background-color: var(--white);
+  transition: all 250ms ease-in-out;
+  @media screen and (min-width: 768px) {
+    outline: none;
+    background-color: transparent;
+  }
+}
+
+.link:hover {
+  border: 1px solid var(--white);
+  color: var(--white);
+  background-color: var(--dark);
+}

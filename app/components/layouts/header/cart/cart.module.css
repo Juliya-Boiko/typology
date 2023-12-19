@@ -1,0 +1,10 @@
+.wrapper {
+  position: absolute;
+  right: 0;
+  top: 58px;
+  z-index: 49;
+  background-color: yellowgreen;
+  @media screen and (min-width: 768px) {
+    top: 82px;
+  }
+}

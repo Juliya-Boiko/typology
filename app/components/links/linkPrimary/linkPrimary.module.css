@@ -1,0 +1,14 @@
+.link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-transform: uppercase;
+  width: max-content;
+  margin-left: auto;
+}
+
+.icon {
+  width: 13px;
+  height: 13px;
+  fill: var(--dark);
+}
